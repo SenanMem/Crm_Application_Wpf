@@ -15,6 +15,7 @@ namespace CrmApp.ViewModels
     public class LogInVModels:BaseVModels
     {
         private ApplicationContext _db { get; set; }
+        public int senansilinecek { get; set; }
 
         private List<Account> _accounts { get; set; }
 
